@@ -1,0 +1,89 @@
+Introdução à lógica e à programação 1/2 (Denilson Bonati)
+
+==========
+Entendendo o que é lógica.
+==========
+Objetivos:
+  1. Entender o que é lógica e lógica de programação
+  2. Entender e criar um mapa mental para resolução de problemas
+  3. Entender o que é uma abstração
+
+Programar é resolver problemas, esta é a habilidade técnica mais importante de um profissional de TI. É mais importante entender de problemas do que escrever códigos. 
+
+> Lógica - "coerência de raciocínio, de ideias"; "sequência coerente, regular e necessária de acontecimentos, coisas".
+Lógica de programação - significa apenas contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações [ALGORÍTMO] para solucionar um problema.
+
+Ferramenta importantíssima para criação de uma sequencia lógica aplicável a um computador é a metacognição e a abstração.
+> Metacognição: "Pensar como você pensa".
+> Abstração: "Habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando características menos importantes ou acidentais".
+
+==========
+O que são algoritmos e pseudocódigos
+==========
+> Algorítmo: é uma sequencia de passos que resolve um problemas. Sequência lógica de passos cuja ordem é muito importante pois pode alterar os resultados.
+Site para treinar algorítmos: https://studio.code.org/s/mc/stage/1/puzzle/1
+
+> Pseudocódigo: é uma forma genérica de se escrever um algorítmo, utilizando uma linguagem simples (nativa, ou seja, em português a quem o escreve, de forma a ser entendida por qualquer pessoa).
+Site para treinar pseudocódigos:
+https://www.proprofs.com/games/wolf-sheep-and-cabbage/
+
+Exercícios:
+1 - Crie um algoritmo do seu dia
+2 - Abra o site http://studio.code.org/s/mc/stage/1/puzzle/1 e tente resolver todos os problemas em menos de uma hora.
+@digitalinnovation.one
+@denilsonbonatti
+3 - Criar pseudocódigo para o problema encontrado em https://rachacuca.com.br/jogos/pinguins-numa-fria/
+
+==========
+Aprendendo fluxograma, variáveis e constantes
+==========
+Objetivos:
+  1 - Esntender o que é um fluxograma
+  2 - Aprender sobre variávei, constantes e tipos de dados
+
+> Fluxograma: é uma ferramenta, um diagrama, utilizada para representar graficamente o esquema de um processo (algorítmo), é a documentação dos passos necessários para execução de um processo. Para programação, é utilizado para representar uma sequência lógica e coerente do fluxo de dados.
+Entrada >>> Processamento >>> Saída
+
+Diagrama de Blocos: é uma representação de um fluxograma por meio de diferentes formas de blocos que representão os diferentes tipo de passos e atividades do processo.
+http://www.flowgorithm.org
+
+> Variáveis: na programação, é um objeto (uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão. É, portanto, um espaço na memória do computador destinado a um dado que pode ser alterado durante a execução de um algorítmo.
+Dentro de um código deve-se declarar uma variável para assim poder utiliza-la. É recomendado o uso apenas de letras  MAIÚSCULAS e minúsculas, sem acentos, símbolos (exceção de "_" e "$") e espaços. Os números devem ser usados apenas precedidos por pelo meno 1 letra.
+
+> Constantes: valores imutáveis e não são alterados durante a vida útil do programa.
+Assim como a variável, uma constante deve ser declarada seguindo as mesmas recomendações.
+
+Exercícios:
+4 - Utilizar o flowgorithm para realizar o calculo de uma média. Deverão ser exibidos o cálculo e a média calculada: (n1 + n2 + n3 + n4)/4  = média
+
+==========
+Tomadas de decisão e expressões
+==========
+Objetivos:
+  1 - Conhecer as expressões aritméticas, literais, e as expressões relacionais.
+  2 - Entender e aplicar as tomadas de decisão em um algorítmo
+
+> Expressões aritméticas: são expressões que utlizam operadores aritméticos e funções aritméticas envolvendo constantes e variáveis.
+Operadores aritméticos: soma: + | subtração: - | multiplicação:* | divisão: / | potenciação: ^ | porcentagem: %
+
+> Expressões literais: são expressões com contantes e/ou variáveis que tem como resultado valores literais.  Exemplo: a variável "Marcos", textos são indicados pelas aspas duplas " ".
+
+> Expressões relacionais: são expressões compostas por outras expressões ou variáveis numéricas com operadores realcionais e tem por resultado (retorno) valores lógicos (Verdadeiro/Falso)
+Operadores relacionais:  maior: > | maior e igual: >= | menor: < | menor e igual: <= | igual: == | diferente: !=
+
+> Tomadas de decisão: é de suma importancia para um programador em vista que ~60% da programação tem relação a tomada de decisão. Geralmente ocorre a necessidade de se decidir o que fazer quando alguma condição específica é encontrada durante a execução de algorítmo.
+
+Exercícios:
+5 - Variáveis, Janeiro, Fevereiro, Março, Abril e média, serão alocadas a quantidades de vendas e então calcular a média, se a média > 5000 mensagem de "parabens e abono de 10%", caso < 5000 "você vai receber apenas 3% de abono"
+
+==========
+Como utilizar a concatenação
+==========
+Objetivos:
+  1 - Aprender o que é concatenação e como utilizá-la
+
+> Concatenação: termo usado em computação para designar a operação de unir o conteúdo de duas "strings". "String" é uma sequencia de caracteres armazenadas em memória, um texto.
+A concatenação pode ser utilizadas para unir duas ou mais células, que podem ser constituidas de fórmulas, textos, ou outras informações, dando origem a um único resultado.
+
+Exercício:
+6 - Completar atividade da média com um resultado para o usuário: ex.: "Seu nome é: " X "e sua média foi: "Y

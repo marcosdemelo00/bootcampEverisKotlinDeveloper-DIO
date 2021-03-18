@@ -1,0 +1,96 @@
+Introdução à lógica e à programação 2/2 (Denilson Bonati)
+
+==========
+Aprendendo como utilizar uma estrutura de repetição
+==========
+Objetivos:
+  1 - Aprender o que é uma estrutura de repetição e como utilizá-la
+
+Estrutura de repetição: permite executar mais de uma vez o mesmo comando ou conjunto de comandos de acordo com a condição ou um contador.
+
+Desafio:
+1 - Construir a tabuada de 9 usando repetição.
+
+==========
+O que são linguagens de programação?
+==========
+Objetivos:
+  1 - Aprender o que são linguagens de programação
+  2 - Introdução ao Portugol (Utilizando pseudocódigos na prática)
+
+Linguagem de programação: é uma escrita formal que especifica um conjunto de instruções e regras usadas para gerar programas (software). Um software pode ser desenvolvido para funcionar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução.
+ - O que é obvio para você, certamente não é obvio para uma máquina. Se você quer que a máquina faça algo para você, você precisa "falar com ela". Desta forma a função das linguagens de programação é servir como um meio de comunicação entre computadores e humanos.
+
+Tipos de linguagem de programação:
+- Alto nível: possuem uma sintaxe que se aproxima da linguagem humana e se distanciam mais da linguagem de máquina.
+- Baixo nível: mais próxima da linguagem de máquina. Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa.
+
+Formas de execução das linguagens:
+- Compiladas: são aquelas cujo o código fonte é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado compilação.
+- Interpretada: são aquelas cujo código fonte é executado por um programa de computador chamado interpretador. que em seguida é executado pelo sistema operacional ou processador.
+
+> Portugol:
+Pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma simples e intuitiva, independentemente de linguagem de programação.
+Permite ao programador pensar na resolução do problema em si e não no equipamento que irá executar o algoritmo.
+Download: https://github.com/UNIVALI-LITE/Portugol-Studio/releases/
+
+Exercício:
+1 - Fazer a leitura das vendas em 4 meses e retornar valores nos meses, o total de vendas e a média das vendas.
+
+==========
+Aprenda a utilizar desvios condicionais e boas práticas em programação
+==========
+Objetivos:
+  1 - Aprender a utilizar os desvios condicionais (estruturas de decisão) no Portugol
+  2 - Boas práticas de programação - Comentários
+
+Desvio condicional:
+- se: é utilizada a palavra reservada 'se', a condição a ser testada entre parênteses e as instruções que devem ser executadas entre chaves caso o desvio seja 'verdadeiro'
+- senão: caso o conjunto de informações em 'se' for 'falsa' usa-se o comando 'senão' para  executar os comando colocado entre chaves.
+  Ex1:
+    se (VERDADEIRO) {eXECUTA}
+    senao {NÃO EXECUTA}
+  Ex2:
+    se(FALSO) {NÃO EXECUTA}
+    senao{EXECUTA}
+- caso: similar ao se - senão, reduz a complexidade na escolha de diversas opções. Porem só é possível trabalhar com valores definidos, sendo impossível trabalhar com operadores lógicos.
+  Ex3:
+    escolha(valor){
+      caso valorteste1: EXECUTA pare
+      caso valorteste2: EXECUTA pare
+      ...
+      caso contrario: EXECUTA
+Ao trabalhar em equipe no mesmo código é importante que outros programadores entendam o que foi escrito, como o algoritmo construído funciona ou quais as condições do algorítmo. Para isso uma boa prática na programação é o COMENTÁRIO, serve também para, ao visitar o código no futuro,  relembrar com maior facilidade as funções e condições do código.
+>Comentário: lembrete uma mensagem para o programador.
+
+==========
+Trabalhando com laços de repetição em Portugol
+==========
+Objetivos:
+  1 - Aprender a utilizar os laços de repetição no Portugol
+
+Dentro da lógica de programação é uma estrutura que permire executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador.
+  Ex1:
+    DO WHILE: faca {EXECUTA} enquanto (CONDIÇÃO)
+
+Exercício:
+2 - Tabuada do 5, usando estrutura de repetição e perguntando ao usuário qual o limite da tabuada.
+    
+==========
+Aplicação prática com matrizes e vetores
+==========
+Objetivos:
+  1 - Entender o que é uma matriz e um vetor e entender a sua aplicação prática.
+
+> Matriz: é uma coleção de variáveis do mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória. A individualização de uma variável de um vetor é feita através do uso de índices. FUnciona semelhante a uma tabela do Excel.
+
+> Vetores: são matrizes de apenas uma dimensão.
+
+Declaração de vetores: cadeia Vetor[5]  (vetor com 5 posições)
+Declaração de matrizes: cadeia Matriz[5][3] (matriz com 5 linhas e 3 colunas)
+
+Exercício:
+3 - Crie uma matriz para armazenar e exibir as seguintes informações:
+João      São Paulo             (11) 9999-5241
+Maria     Ribeirão Preto        (16) 9999-8596
+Ana       Manaus                (92) 9999-8574

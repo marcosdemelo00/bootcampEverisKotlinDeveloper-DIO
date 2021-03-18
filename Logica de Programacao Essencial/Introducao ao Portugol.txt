@@ -1,4 +1,4 @@
-Introdução à lógica e à programação 2/2 (Denilson Bonati)
+Introdução à lógica e à programação 2/2 (Denilson Bonatti)
 
 ==========
 Aprendendo como utilizar uma estrutura de repetição

@@ -1,0 +1,21 @@
+Estrutura de Dados e Algoritmos 3/3 (Bruno de Campos)
+
+==========
+O que são árvores
+==========
+> Árvore: é uma estrutura de dados organizada hierarquicamente, onde exte um elemento que fica no topo da árvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas. É uma estrutura que facilita a busca.
+
+==========
+O que são tabelas hash
+==========
+> Tabela Hash: também chamada de dispersão ou espaçamento é uma estrutura de dados especial, que associa chaves de pesquisa a valores.
+É uma generalização da ideia de array, mas utiliza uma função denominada Hashing para escolher os elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do "array" que define a tabela.
+A tabela hash permite a associação de "valores a "chaves" onde:
+- Valores: são as posições ou índices onde o elemento se encontra.
+- Chaves: parte da informação que compõe o elemento a ser manipulado.
+Espalhar os dados facilita a busca na estrutura, pois a partir de uma chave podemos acessar de forma rápida uma posição do "array".
+
+==========
+O que são grafos
+==========
+Grafos: são estruturas que permitem programar a relação entre objetos. Onde os objetos são os vértices ou nós do grafo, enquanto os relacionamentos são as arestas

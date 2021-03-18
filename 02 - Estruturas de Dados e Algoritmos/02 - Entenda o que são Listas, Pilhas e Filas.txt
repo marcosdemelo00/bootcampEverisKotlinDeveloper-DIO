@@ -1,0 +1,35 @@
+Estrutura de Dados e Algoritmos 2/3 (Bruno de Campos)
+
+==========
+O que são listas
+==========
+> Listas: As lista são como arrays porem as listas possuem tamanho ajustável, enquanto arrays possuem tamanho fixo.
+Existem dois tipos de listas:
+- Ligadas: Nessa estrutura existem nós onde cada um dos nó conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior a ele: por isso é chamada de "lista ligada", pois os nós são amarrados com essa indicação de qual é o próximo nó.
+Ex.:
+_Primeiro valor: 
+    Nó1: dado + (último nó) => esperando próximo nó ->
+Acrescentando valor no fim: 
+    Nó1: dado + próximo nó -> Nó2: dado + (último nó) => esperando próximo nó ->
+
+- Duplamente ligadas: é uma variação da lista ligada, porem esta é bidirecional. Nas listas Ligadas não podemos voltar para um nó anterior, em vista que cada nó só possui a referencia para o nó seguinte e não do anterior. Nas listas duplamente ligadas, os nós sabem quem é o próximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
+Ex.:
+_Primeiro valor:  
+    <- esperando nó anterior <= Nó1: (primeiro nó) + dado + (último nó) => esperando próximo nó ->
+_Acrescentando valor no fim: 
+    <- esperando nó anterior <= Nó1: (primeiro nó) + dado + (próximo nó) <-> Nó2: (nó anterior) + dado + (último nó) => esperando próximo nó ->
+_Acrescentando valor no início: 
+    <- esperando nó anterior <= Nó0: (primeiro nó) + dado + (próximo nó) <-> Nó1: (nó anterior) + dado + (próximo nó) <-> Nó2: (nó anterior) + dado + (último nó) => esperando próximo nó ->
+
+==========
+O que são pilhas
+==========
+> Pilha: também conhecida como stack, é uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado. O acesso a pilha é restrito - apenas um item poder ser lido ou removido por vez.
+Tipos de Pilhas:
+- LIFO ou UEPS: Last In First Out (Último que Entra Primeiro que Sai), o primeiro elemento a ser retirado é o último que tiver sido inderido.
+- FIFO ou PEPS: First In First Out (Primeiro que Entra Primeiro que Sai), o primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+
+==========
+O que são filas
+==========
+> Filas: tem por característica de remoção e inserção a regra que o elemento removido é o que está na estrutura há mais tempo, ou seja, o primeiro elemento inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.

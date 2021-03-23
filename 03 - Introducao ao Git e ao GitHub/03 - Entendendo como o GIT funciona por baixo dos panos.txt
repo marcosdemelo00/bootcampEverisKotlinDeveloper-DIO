@@ -1,0 +1,46 @@
+Introdução ao Git e ao GitHub 3/7 (Otávio Reis)
+
+> Entendendo como o GIT funciona por baixo dos panos
+
+==========
+Tópicos fundamentais para entender o funcionamento do Git
+==========
+Objetivos:
+- SHA1
+
+> SHA1: é um algoritmo de encriptação, que significa Secure Hash Algorithm (Algoritmo de Hash Seguro) que é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+A encriptação gera conjunto de caracteres identificador de 40 dígitos. Cada alteração de um texto em um arquivo gera um conjunto diferente de caracteres do SHA1, gera uma forma curta de representar um arquivo.
+Comando: $ openssl sha1 "arquivo.tipo" -> gera um código sha1 referente ao arquivo selecionado
+
+> Git Bash: Terminal instalado com o Git
+*click com o botão direito na barra de tarefas -> Options : é possível alterar o tema e fazer outras alterações no Git Bash
+
+==========
+Objetos internos do Git
+==========
+Objetivos:
+- Objetos fundamentais
+- Sistema distribuído
+- Segurança
+
+Os objetos fundamentais do Git são:
+- Blobs
+- Trees
+- Commits
+
+> Blobs: é um objeto que contém os arquivos observados pelo Git. Esses objetos contém os seguintes meta dados: tipo, tamanho, "\0" e o conteúdo do arquivo observado. 
+Com isso uma hash do git é criada em cima do conteúdo de um blob e não do próprio arquivo, de forma que para gerar um git hash igual a um sha1 hash os comandos devem ser: 
+Comando: echo 'conteudo' | git hash-object --stdin   (git hash)
+Comando: echo -e 'blob 9\0conteudo' | openssl sha1   (sha1 hash)
+
+>Trees: são objetos que armazenam os blobs ou outras trees. Ela contém metadados semelhantes ao blob os quais são por exemplo: os tipo, "\0", blobs, commits, trees e os nomes dos arquivos.
+Essa estrutura está ligada, de forma que se um blob for alterado vai assim alterar o sha1 do blob e também o sha1 da tree.
+
+> Commit: é um objeto que engloba toda a estrutura montada, dando sentido a alteração que está sendo feita. Os commits apontam para as trees, para um parente (commit anterior), para um autor e para uma mensagem.
+Os commits resumem toda a estrutura das alterações dos blobs e trees, e ordenam como uma linha do tempo as alterações que foram feitas em vista que um commits sempre aponta para um commit anterior.
+
+Podemos associar as estruturas dos blobs, trees e commits como arquivos, pastas e produto final.
+
+> Sistema distribuído Seguro: O Git é um sistema distribuído pois suporta várias cópias suas em vários locais diferentes e é extremamente seguro devido a forma como é construída sua estrutura (encadeamento das informações).
+Os commits são objetos tão difíceis, ou até impossíveis, de serem alterados (tanto a versão mais recente ou os anteriores) que para se perde ou alterar um desses algo deveria acontecer com o servidor principal e com todas as outras máquinas que compartilham esses commits.
+Desta forma que sua construção (blobs, trees e commits), quanto a sua distribuição, são o que tornam o Git um sistema tão seguro.

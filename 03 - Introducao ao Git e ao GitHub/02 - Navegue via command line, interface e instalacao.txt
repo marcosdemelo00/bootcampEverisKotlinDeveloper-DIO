@@ -1,0 +1,44 @@
+Introdução ao Git e ao GitHub 2/7 (Otávio Reis)
+
+> Navegue via command line, interface e instalação
+
+==========
+Comandos básicos para um bom desempenho no terminal
+==========
+> GUI x CLI: Graphic User Interface x Commando Line Interface
+Sistemas operacionais possuem interfaces gráficas facilitando os comandos no computador, por meio de clicar e arrastar, digitar comandos no teclado, etc. Porem o Git foi concebido na tecnologia de CLI, de forma que os comandos devem ser passados via terminal, o Git Bash, e é dessa forma que seguiremos no curso. Mas existem sim, softwares que possibilitam a manipulação do Git via GUI.
+
+ > O que vamos aprender?
+- Mudar de pastas
+  W -> cd  |  U -> cd   (Change Directory)
+  > cd / (navegar para pasta base)
+  > cd Windows (navega para pasta Windows)
+  > cd .. (retrocede 1 nível na pasta)
+
+- Limpar a tela
+  W -> cls (clear screen)  |  U -> clear (Ctrl + L)
+
+- Listar as pastas
+  W -> dir (directory)  |  U -> ls  (List)
+
+- Criar pastas/arquivos
+  W -> mkdir  |  U -> mkdir (make directory)  
+  > mkdir NovaPasta
+  > echo  "texto" > "arquivo.txt" (cria arquivo txt com o "texto" no conteúdo)
+
+- Deletar pastas/arquivos
+  W -> del (deleta apenas arquivos)
+  W -> rmdir (remove directory deleta diretórios)
+  U -> rm -rf (remove forced - usado para deletar arquivos ou diretórios)
+
+Obs.:
+- Existem diferenças entre comandos do Windows e Unix.
+- Cada comando pode possuir variâncias. Utilizam-se flags que podem acrescentar, modificar ou formatar os comandos.
+- TAB serve para auto completar, evitando nomes grande e complexos de arquivos.
+- Silence on sucess: Silêncio no sucesso, se o terminal não retornou nenhuma informação significa que o comando deu certo.
+- Setas para cima e para baixo do teclado navegam pelos comandos já feitos
+
+==========
+Ressaltando as principais diferenças entre os sistemas operacionais
+==========
+Instalação do git: https://git-scm.com

@@ -1,0 +1,36 @@
+Introdução ao Git 5/7 (Otávio Reis)
+
+> Ciclo de vida dos arquivos no Git
+===========
+Passo a passo no ciclo de vida
+===========
+> git init: inicializa o repositório, cria um repositório do git dentro da pasta onde foi dado o comando.
+
+Estágios do arquivo no repositório:
+ - Untracked: os arquivos que o git ainda não tem ciência.
+ - Tracket: os arquivos que o git tem ciência.
+   _ Staged: é o local onde os arquivos que estão em preparação para serem salvos no repositório.
+   _ Unmodified: Arquivos presente no repositório que ainda não sofreu alteração. Estes possuem o mesmo sha1 do ultimo commit.
+   _ Modified: Arquivos que foram editados mas ainda não foram adicionados no repositório.
+                        (((((((((((((((((tracked))))))))))))))))))
+  untracked    unmodified     modified     staged
+          () >>>>>>>>>>>>>>>>>>>>>>>>>>>>> X         (adiciona o arquivo)
+                                ()>>>>>>>>>X                               (edita o arquivo)
+                                                      ()>>>>>>>>>X         ("stage" o arquivo)
+          X<<<<<<<<<<()                                                   (remove o arquivo)
+                                 X<<<<<<<<<<<<<<<<<<<<()        (commit)
+
+> Repositórios: os repositórios são os ambientes de controle de versionamento dos arquivos. Eles proporcionam maior controle sobre recuperação de versão específicas do código, compartilhamento e colaboração em grupo. São divididos em:
+ - Ambiente de desenvolvimento:
+   _ Working Directory
+   _ Stagging Area
+   _ Local Repository 
+ - Servidor:
+   _ Remote Repository
+
+Comandos:
+ - git status : diz o estado dos arquivos (untracked, modified, staged...)
+ - git add : adiciona arquivos para o staged
+ - git restore --staged : retira arquivos do staged , devolvendo eles para posição anterior, seja untracked ou modified.
+ - git rm : remove os arquivos do repositório, deixando eles untracked
+ - git commit -m " " : Salva uma snapshot do repositório e move os arquivos para unmodified

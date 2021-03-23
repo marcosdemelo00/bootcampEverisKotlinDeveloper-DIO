@@ -1,0 +1,12 @@
+Introdução ao Git 7/7 (Otávio Reis)
+
+> Resolvendo conflitos
+==========
+Como os conflitos acontecem no GitHub e como resolvê-los
+==========
+> A versão no repositório local é, e deve ser, o mesmo que no repositório remoto para que as movimentações de push sejam perfeitamente executadas. Porem em um trabalho em grupo outros desenvolvedores podem ter acesso aos códigos e fazer suas próprias edições. Pode haver casos em que duas pessoas façam uma alteração na mesma linha do código. Após um dos devs empurrar o código para o GitHub o segundo, ao tentar um novo commit, vai receber uma mensagem de incompatibilidade de versões, chamado de conflito de merge.
+- Para resolver é necessário puxar a versão que outra pessoa fez a alteração, fazer as suas alterações para a assim poder empurrar para o remoto.
+   _ git pull oringin master : puxa o conteúdo do repositório remoto para o local.
+
+Comando:
+ - git clone "url do gitHub" : copia todos os arquivos de um repositório remoto para uma pasta local tornando ela uma repositório local.

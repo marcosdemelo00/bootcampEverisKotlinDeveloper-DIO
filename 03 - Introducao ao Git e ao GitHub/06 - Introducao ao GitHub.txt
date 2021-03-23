@@ -1,0 +1,19 @@
+Introdução ao Git 6/7 (Otávio Reis)
+
+> Introdução ao GitHub
+==========
+Trabalhando com o GitHub
+==========
+
+> GitHut: É um repositório remoto. Uma plataforma online que permite o compartilhamento e armazenamento de repositórios locais do git. Possui diversas funcionalidades como lojas de aplicações para integrar no seu fluxo e ainda funciona como uma rede social para desenvolvedores.
+
+> Criando um repositório remoto: no GitHub basta clicar em criar um novo repositório. Em seguida deve escrever o nome do repositório e uma descrição opcional, seleciona se o repositório será público ou privado. Selecionar se há a necessidade da criação de um arquivo README.md e criar o repositório.
+No repositório remoto é necessário apenas apenas pegar a url para linkar o repositório local com ele.
+No GitHub e possível ver todas as informações dos commits, o histórico com mensagens, conteúdo trackeados pelas blobs, etc.
+
+Comandos:
+ - git config --list : mostra todas as configurações do git
+ - git config --global --unset user.email : apaga um campo específico das configurações globais, ecemplo email do usuário.
+ - git config --global user.email email@email.com : configura um campo específico das configurações globais, exemplo email do usuário.
+ - git remote add origin "url do repositório remoto" : linka o repositório local com o repositório remoto.
+ - git push origin master : "empurra" o repositório local para o remoto.

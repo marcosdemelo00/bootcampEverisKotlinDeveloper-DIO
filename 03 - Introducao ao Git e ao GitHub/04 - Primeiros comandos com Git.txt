@@ -1,0 +1,20 @@
+Introdução ao Git e ao GitHub 4/7 (Otávio Reis)
+
+> Primeiros comandos com Git
+===========
+Iniciando o Git e criando um commit
+===========
+Objetivos:
+- iniciar o Git
+- Iniciar o versionamento
+- Criar um commit
+
+Comandos:
+- git init : inicia o repositório no Git
+- git add : mover/selecionar arquivos e dar início ao versionamento
+- git commit : cria um commit
+
+> Markdown: é uma forma mais humana de escrever um arquivo .html (estrutura básica de páginas na web)
+https://www.markdownguide.org/basic-syntax/
+
+*ls -a : amostra pastas ocultas.

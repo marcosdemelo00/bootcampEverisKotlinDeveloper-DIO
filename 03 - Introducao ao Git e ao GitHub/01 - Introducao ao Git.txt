@@ -1,0 +1,22 @@
+Introdução ao Git e ao GitHub 1/7 (Otávio Reis)
+
+> Introdução ao Git
+
+==========
+Entendendo o que é Git e sua importância
+==========
+> Porque aprender uma tecnologia de versionamento?
+As vezes se faz necessário fazer revisões em seus arquivos e para tal é necessário criar versões diferentes, de momentos diferentes do seu projeto. De forma que em um ponto no futuro após um arquivo ter sido inúmeras vezes editado, haja a necessidade de rever uma ideia que foi escrita a muito tempo e agora já foi apagado e editado.
+Para isso existem os versionamentos dos arquivos, que servem para criar um histórico das alterações dos arquivos além de possibilitar o trabalho de varias pessoas em um único arquivo fazendo controle das versões.
+Ex.: Edição de um texto para um jornal ou revista, construção de um projeto ou na programação e desenvolvimento de softwares.
+
+> Git: é um ferramenta (Software) de versionamento de código distribuído criada em 2005 por Linus Torvalds, após um descontentamento com outros programas de versionamentos enquanto era construído o kernel do Linux. O git funciona salvando as alterações feitas entre as versões do arquivo não havendo a necessidade de uma cópia completa do arquivo. O controle e gerenciamento de versões de um arquivo do git possibilita a edição de um único arquivo por várias pessoas ao mesmo tempo.
+
+> GitHub: é um repositório (servidor) para armazenamento de arquivos que possibilita o versionamento via Git, da Microsoft.
+
+As vantagens de se utilizar o Git juntamente com o GitHub são:
+- Controle de versão
+- Armazenamento em nuvem
+- Trabalho em equipe
+- Melhorar seu código
+- Reconhecimento (Divulgação de portfólio)

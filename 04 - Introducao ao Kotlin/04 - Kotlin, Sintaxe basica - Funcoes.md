@@ -1,0 +1,33 @@
+# Introdução ao Kotlin 4/5 (Ana Luísa Dias)
+> Kotlin, Sintaxe básica : Funções
+
+## Funções
+
+> [Exemplos no PlayGround](https://play.kotlinlang.org/#eyJ2ZXJzaW9uIjoiMS40LjMwIiwicGxhdGZvcm0iOiJqYXZhIiwiYXJncyI6IiIsImpzQ29kZSI6IiIsIm5vbmVNYXJrZXJzIjp0cnVlLCJ0aGVtZSI6ImlkZWEiLCJjb2RlIjoiLy8gRlVOw4fDg08gUFJJTkNJUEFMXG5mdW4gbWFpbigpIHtcbiAgICBcbiAgICBwcmludGxuKFwiPj4gRnVuw6fDtWVzIDw8XCIpXG4gICAgdmFsIG5hbWUgPSBcIk1hcmNvc1wiXG4gICAgdmFsIGxhc3ROYW1lID0gXCJMb3VyZW5jb1wiXG4gICAgXG4gICAgcHJpbnRsbihnZXRGdWxsbmFtZVJldHVybihuYW1lLCBsYXN0TmFtZSkpXG4gICAgXG4gICAgZ2V0RnVsbG5hbWVWb2lkKG5hbWUsIGxhc3ROYW1lKVxuICAgIFxuICAgIHByaW50bG4oZ2V0RnVsbG5hbWVTaW5nbGVMaW5lKG5hbWUsIGxhc3ROYW1lKSlcbiAgICBcbiAgICBwcmludGxuKFwiXFxuPj4gRnVuw6fDtWVzIGRlIG9yZGVtIHN1cGVyaW9yIDw8XCIpXG4gICAgdmFsIHo6SW50XG4gICAgXG4gICAgeiA9IGNhbGN1bGF0ZSgzNCwgOTAsIDo6c3VtKVxuICAgIHByaW50bG4oeilcbiAgICBwcmludGxuKGNhbGN1bGF0ZSgzNCwgOTApe2EsIGIgLT4gXG4gICAgICAgIHByaW50KFwiQSBzb21hIMOpOiBcIilcbiAgICAgICAgYStiXG4gICAgfSlcbiAgICBcbiAgICBwcmludGxuKFwiXFxuPj4gRnVuw6fDtWVzIGV4dGVuc8Ojb1wiKVxuICAgIHZhbCBzdHIgPSBcInRlc3RhbmRvXCJcbiAgICBwcmludGxuKHN0ci5yYW5kb21DYXBpdGFsaXplZExldHRlcigpKVxuICAgIFxufVxuXG5cbi8vIEZVTsOHw5VFUyBTRUNVTkTDgVJJQVNcbnByaXZhdGUgZnVuIGdldEZ1bGxuYW1lUmV0dXJuKG5hbWU6U3RyaW5nLCBsYXN0TmFtZTpTdHJpbmcpOlN0cmluZyB7XG4gICAgdmFsIGZ1bGxuYW1lID0gXCIkbmFtZSAkbGFzdE5hbWVcIlxuICAgIHJldHVybiBmdWxsbmFtZVxufVxuXG5wcml2YXRlIGZ1biBnZXRGdWxsbmFtZVZvaWQobmFtZTpTdHJpbmcsIGxhc3ROYW1lOlN0cmluZykge1xuICAgIHByaW50bG4oXCIkbmFtZSAkbGFzdE5hbWVcIilcbn1cblxuLy8gRlVOw4fDg08gU0lOR0xFIExJTkVcbnByaXZhdGUgZnVuIGdldEZ1bGxuYW1lU2luZ2xlTGluZShuYW1lOlN0cmluZywgbGFzdE5hbWU6U3RyaW5nKSA9IFwiJG5hbWUgJGxhc3ROYW1lXCJcblxuLy8gRlVOw4fDg08gREUgT1JERU0gU1VQRVJJT1JcbmZ1biBzdW0oYTE6SW50LCBhMjpJbnQpID0gYTEucGx1cyhhMilcblxuZnVuIGNhbGN1bGF0ZShuMTpJbnQsIG4yOkludCwgb3BlcmF0aW9uOihJbnQsSW50KS0+SW50KTpJbnQge1xuICAgIHZhbCByZXN1bHQgPSBvcGVyYXRpb24objEsIG4yKVxuICAgIHJldHVybiByZXN1bHRcbn1cblxuLy8gRlVOw4fDg08gRVhURU5Tw4NPXG5mdW4gU3RyaW5nLnJhbmRvbUNhcGl0YWxpemVkTGV0dGVyKCk6U3RyaW5nIHtcbiAgICB2YXIgbCA9IHRoaXNbKDAuLnRoaXMubGVuZ3RoLTEpLnJhbmRvbSgpXVxuICAgIHJldHVybiB0aGlzLnJlcGxhY2UobCwgbC50b1VwcGVyQ2FzZSgpKVxufSJ9)
+
+- Prefixo de uma função:
+  - Fun nomeDaFuncao(parametro:Tipo):tipoRetorno { código }
+- Tipo de Funções:
+  - Funções anônimas
+  - single-line
+  - inline
+  - extensões
+  - Lambdas
+  - ordem superior 
+
+#### Funções de ordem superior
+- Recebem outra função ou lambda por parâmetro
+- Bastante úteis para generalização de funções e tratamento de erros
+- Reutilização de funções
+- Facilitação de testes e correções
+
+#### Funções single-line
+- Prefixo da função:
+  - Fun nomeDaFuncao(parametro:Tipo) = retorno;
+- Como o nome diz (single-line) é uma função de uma única linha
+- Infere automaticamente o tipo de retorno
+
+#### Funções/extensões
+- Prefixo da função:
+  - Fun Tipo.nomeDaFunção()
+- Cria uma função que só pode ser chamada por um tipo específico, cujo o valor pode ser referenciado dentro da função através da palavra **this**

@@ -6,7 +6,7 @@ Promovido pela **Digital Innovation One** em parceria com a **Everis**.
  - [X] Aprenda o que são Estruturas de Dados e Algoritmos
  - [X] Introdução ao Git e ao GitHub
  - [X] Introdução ao Kotlin
-   * [Calculadora em Kotlin](/04%20-%20Introducao%20ao%20Kotlin/calculadora.kt)
+   * [Calculadora em Kotlin](/04%20-%20Introducao%20ao%20Kotlin/Calculadora.kt)
  - [ ] Fundamentos de Orientação a Objetos com Kotlin
  - [ ] Introdução a programação em Kotlin
  - [ ] Introdução a arquitetura da plataforma Android com Kotlin

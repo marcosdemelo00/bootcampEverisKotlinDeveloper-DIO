@@ -8,7 +8,7 @@ Promovido pela **Digital Innovation One** em parceria com a **Everis**.
  - [X] Introdução ao Kotlin
    * [Calculadora em Kotlin](/04%20-%20Introducao%20ao%20Kotlin/Calculadora.kt)
  - [X] Fundamentos de Orientação a Objetos com Kotlin
-   * [Aplicação DigiOneBank](/digitalinnovation)
+   * [Aplicação DigiOneBank](/05%20-%20Fundamentos%20de%20Orientacao%20a%20Objetos%20em%20Kotlin/digitalinnovation)
  - [X] Introdução a programação em Kotlin
  - [ ] Introdução a arquitetura da plataforma Android com Kotlin
  - [ ] Trabalhando com o Android Studio e principais ferramentas

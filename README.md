@@ -6,11 +6,11 @@ Promovido pela **Digital Innovation One** em parceria com a **Everis**.
  - [X] Aprenda o que são Estruturas de Dados e Algoritmos
  - [X] Introdução ao Git e ao GitHub
  - [X] Introdução ao Kotlin
-   * [Calculadora em Kotlin](/04%20-%20Introducao%20ao%20Kotlin/Calculadora.kt)
+   * [Calculadora em Kotlin](/04-IntroducaoAoKotlin/Calculadora.kt)
  - [X] Fundamentos de Orientação a Objetos com Kotlin
-   * [Aplicação DigiOneBank](/05%20-%20Fundamentos%20de%20Orientacao%20a%20Objetos%20em%20Kotlin/digitalinnovation)
+   * [Aplicação DigiOneBank](/05-FundamentosDeOrientacaoAObjetosEmKotlin/digitalinnovation)
  - [X] Introdução a programação em Kotlin
- - [ ] Introdução a arquitetura da plataforma Android com Kotlin
+ - [X] Introdução a arquitetura da plataforma Android com Kotlin
  - [ ] Trabalhando com o Android Studio e principais ferramentas
  - [ ] Aplicando conceitos de Coleções, Arrays e Listas
  - [ ] Melhores práticas para debugging, tratamento de erros e exceções

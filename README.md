@@ -11,6 +11,8 @@ Promovido pela **Digital Innovation One** em parceria com a **Everis**.
    * [Aplicação DigiOneBank](/05-FundamentosDeOrientacaoAObjetosEmKotlin/digitalinnovation)
  - [X] Introdução a programação em Kotlin
  - [X] Introdução a arquitetura da plataforma Android com Kotlin
+   * [HelloWorld](/07-TrabalhandoComOAndroidStudioEPrincipaisFerramentas/HelloWorld)
+   * [Calculadora de Notas](/07-TrabalhandoComOAndroidStudioEPrincipaisFerramentas/CalculadoraDeNotas)
  - [ ] Trabalhando com o Android Studio e principais ferramentas
  - [ ] Aplicando conceitos de Coleções, Arrays e Listas
  - [ ] Melhores práticas para debugging, tratamento de erros e exceções

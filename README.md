@@ -13,8 +13,8 @@ Promovido pela **Digital Innovation One** em parceria com a **Everis**.
  - [X] Introdução a arquitetura da plataforma Android com Kotlin
    * [HelloWorld](/07-TrabalhandoComOAndroidStudioEPrincipaisFerramentas/HelloWorld)
    * [Calculadora de Notas](/07-TrabalhandoComOAndroidStudioEPrincipaisFerramentas/CalculadoraDeNotas)
- - [ ] Trabalhando com o Android Studio e principais ferramentas
- - [ ] Aplicando conceitos de Coleções, Arrays e Listas
+ - [X] Trabalhando com o Android Studio e principais ferramentas
+ - [X] Aplicando conceitos de Coleções, Arrays e Listas
  - [ ] Melhores práticas para debugging, tratamento de erros e exceções
  - [ ] Projetando o primeiro aplicativo Android usando Kotlin
  - [ ] Desenvolvimento integrado de dados com SQLite no Android
